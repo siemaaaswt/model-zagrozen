@@ -39,7 +39,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "żadanie dodania pracy",
+              "name": "wysłanie zapytania do bazy danych czy praca jest w systemie",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -53,17 +53,27 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "żadanie dodania pracy"
+              "wysłanie zapytania do bazy danych czy praca jest w systemie"
             ],
-            "id": "b45b5d02-779b-4cfc-9278-9fc43f3a8f8a",
+            "id": "fe7652a7-83e1-423e-a0d5-39216855a0a8",
             "source": {
-              "x": 270,
-              "y": 90
+              "cell": "61a616c9-e972-4fd2-96dd-411d9d497661",
+              "port": "af49e4f1-f963-47a0-a61b-2b27588da4ed"
             },
             "target": {
-              "cell": "5e5b218a-d2b1-4f39-b858-79f95fc5b3d4",
-              "port": "55109869-b365-4bcc-bbef-db8b35fb9267"
-            }
+              "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
+              "port": "a9a6599f-eece-4472-ba9f-6b31ec4f3049"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 620
+              },
+              {
+                "x": 380,
+                "y": 620
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -85,7 +95,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "przesłanie pracy",
+              "name": "żądanie dodania pracy",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -99,21 +109,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "przesłanie pracy"
+              "żądanie dodania pracy"
             ],
-            "id": "cc0dbad8-f21c-4f19-8c76-5a11f062bd10",
+            "id": "b45b5d02-779b-4cfc-9278-9fc43f3a8f8a",
             "source": {
-              "x": 380,
-              "y": 420
+              "cell": "f976afde-3b06-47b6-a3f1-99244befa559",
+              "port": "04f35a35-8d08-4fc2-931d-be70fefff832"
             },
             "target": {
-              "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
+              "cell": "5e5b218a-d2b1-4f39-b858-79f95fc5b3d4",
               "port": "55109869-b365-4bcc-bbef-db8b35fb9267"
             },
             "vertices": [
               {
-                "x": 500,
-                "y": 420
+                "x": 370,
+                "y": 90
               }
             ]
           },
@@ -164,8 +174,8 @@
             },
             "vertices": [
               {
-                "x": 450,
-                "y": 180
+                "x": 460,
+                "y": 190
               }
             ]
           },
@@ -189,7 +199,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "wysłanie zapytania do bazy danych czy praca jest w systemie",
+              "name": "przesłanie pracy",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -203,25 +213,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "wysłanie zapytania do bazy danych czy praca jest w systemie"
+              "przesłanie pracy"
             ],
-            "id": "fe7652a7-83e1-423e-a0d5-39216855a0a8",
+            "id": "1373b7f1-bed3-497a-aaa7-8ff7656f4421",
             "source": {
-              "cell": "61a616c9-e972-4fd2-96dd-411d9d497661",
-              "port": "af49e4f1-f963-47a0-a61b-2b27588da4ed"
+              "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
+              "port": "55109869-b365-4bcc-bbef-db8b35fb9267"
             },
             "target": {
-              "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
-              "port": "a9a6599f-eece-4472-ba9f-6b31ec4f3049"
+              "cell": "61a616c9-e972-4fd2-96dd-411d9d497661",
+              "port": "80e89dc9-8a97-404b-8846-db7e943460d6"
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 560
-              },
-              {
-                "x": 550,
-                "y": 560
+                "x": 450,
+                "y": 480
               }
             ]
           },
@@ -245,7 +251,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "przekazanie ścieżkę do pobrania pracy",
+              "name": "wysłanie zapytania o to, czy praca jest w systemie",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -259,31 +265,31 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "przekazanie ścieżkę do pobrania pracy"
+              "wysłanie zapytania o to, czy praca jest w systemie"
             ],
-            "id": "fb86d3ab-f3d2-466a-9039-6351f81c996e",
+            "id": "39edd36c-e9ac-4094-a527-9afcef8ea281",
             "source": {
               "cell": "5e5b218a-d2b1-4f39-b858-79f95fc5b3d4",
-              "port": "2f05845b-788a-47e6-9da7-315f57cf8850"
+              "port": "e31c6ca8-77df-4726-ae8d-b11f16f6433b"
             },
             "target": {
               "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
-              "port": "2f05845b-788a-47e6-9da7-315f57cf8850"
+              "port": "e31c6ca8-77df-4726-ae8d-b11f16f6433b"
             },
             "vertices": [
               {
-                "x": 520,
-                "y": 250
+                "x": 1080,
+                "y": 270
               }
             ]
           },
           {
             "position": {
-              "x": 130,
-              "y": 70
+              "x": 50,
+              "y": 69.99999999999993
             },
             "size": {
-              "width": 140,
+              "width": 180,
               "height": 60
             },
             "attrs": {
@@ -291,8 +297,8 @@
                 "text": "zalogowany użytkownik"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -389,29 +395,15 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "0c225634-4c32-4b77-8e57-df215b9401f4",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 4,
-                  "score": ""
-                }
-              ]
+              "threats": []
             }
           },
           {
             "position": {
-              "x": 260,
-              "y": 390
+              "x": 90,
+              "y": 450
             },
             "size": {
               "width": 120,
@@ -537,20 +529,20 @@
           },
           {
             "position": {
-              "x": 460,
-              "y": 45
+              "x": 575,
+              "y": 10.000000000000583
             },
             "size": {
               "width": 260,
-              "height": 110
+              "height": 140
             },
             "attrs": {
               "text": {
                 "text": "front end usos"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -647,26 +639,12 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "fe5b9ae1-cbdf-43e3-bf8f-a638c7de14b8",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 3,
-                  "score": ""
-                }
-              ]
+              "threats": []
             }
           },
           {
@@ -968,74 +946,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 28,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "wysłanie zapytania o to czy praca jest w systemie",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "wysłanie zapytania o to czy praca jest w systemie"
-            ],
-            "id": "c008301b-1c52-4417-9acf-7661ba830fb9",
-            "source": {
-              "x": 719,
-              "y": 90
-            },
-            "target": {
-              "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
-              "port": "e31c6ca8-77df-4726-ae8d-b11f16f6433b"
-            },
-            "vertices": [
-              {
-                "x": 780,
-                "y": 130
-              },
-              {
-                "x": 900,
-                "y": 200
-              },
-              {
-                "x": 940,
-                "y": 220
-              },
-              {
-                "x": 940,
-                "y": 250
-              },
-              {
-                "x": 920,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 29,
             "connector": "smooth",
             "data": {
@@ -1058,8 +968,8 @@
             ],
             "id": "6e94ed58-9c6f-4cec-b134-3fcfab0748e8",
             "source": {
-              "x": 320,
-              "y": 390
+              "x": 220,
+              "y": 470
             },
             "target": {
               "cell": "86093fa0-50d7-417c-b95e-e5104eef9a54",
@@ -1067,65 +977,14 @@
             },
             "vertices": [
               {
-                "x": 420,
-                "y": 310
+                "x": 320,
+                "y": 390
+              },
+              {
+                "x": 460,
+                "y": 390
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1174,8 +1033,64 @@
             },
             "vertices": [
               {
+                "x": 60,
+                "y": 220
+              },
+              {
                 "x": 90,
                 "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 31,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "przekazanie ścieżki do pobrania pracy",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "przekazanie ścieżki do pobrania pracy"
+            ],
+            "id": "5dca60b6-4e69-409e-a52d-b2e4c17ee214",
+            "source": {
+              "x": 780,
+              "y": 400
+            },
+            "target": {
+              "x": 920,
+              "y": 580
+            },
+            "vertices": [
+              {
+                "x": 980,
+                "y": 480
               }
             ]
           }
